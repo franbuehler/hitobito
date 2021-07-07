@@ -111,19 +111,19 @@ group :development do
 end
 
 group :test do
-  gem 'capybara'
-  gem 'capybara-screenshot'
+  gem 'capybara', '>= 3.31.0'
+  gem 'capybara-screenshot', '>= 1.0.24'
   gem 'database_cleaner'
   gem 'fabrication'
   gem 'headless'
-  gem 'launchy'
+  gem 'launchy', '>= 2.4.3'
   gem 'pdf-inspector', require: 'pdf/inspector'
   gem 'rails-controller-testing'
   gem 'rspec-collection_matchers'
   gem 'rspec-its'
   gem 'selenium-webdriver'
   gem 'webdrivers'
-  gem 'webmock'
+  gem 'webmock', '>= 3.8.2'
 end
 
 group :console do
